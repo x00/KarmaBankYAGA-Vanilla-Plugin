@@ -53,7 +53,7 @@ class KarmaBankYAGA extends Gdn_Plugin {
         if(!$Action)
             return;
         $Slug = str_replace(' ', '', ucwords(str_replace('-', ' ',Gdn_Format::Url($Action->Name))));
-        //recieving       
+        //recieving
         if(GetValue('Exists',$Args)){ // award
             $AwardDirection = "Awarded";
         }else{ // unaward
