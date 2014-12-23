@@ -1,10 +1,10 @@
-<?php
+<?php  if (!defined('APPLICATION')) exit();
 $PluginInfo['KarmaBankYAGA'] = array(
     'Name' => 'KarmaBank YAGA',
     'Description' => 'Extends KarmaBank to set rules that award when badges and reactions are given, also can also set rules when reactions are taken away.',
     'RequiredApplications' => array('Vanilla' => '2.1'),
     'RequiredPlugins' => array('KarmaBank' => '0.9.6.9b'),
-    'Version' => '0.1.1b',
+    'Version' => '0.1.2b',
     'Author' => "Paul Thomas",
     'AuthorEmail' => 'dt01pqt_pt@yahoo.com'
 );
